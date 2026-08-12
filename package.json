@@ -1,0 +1,16 @@
+{
+  "name": "white-oak-stewardship-web",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "White Oak Stewardship — marketing site (SATCORP)",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "og": "python scripts/build-og-images.py"
+  },
+  "devDependencies": {
+    "vite": "^7.1.5"
+  }
+}

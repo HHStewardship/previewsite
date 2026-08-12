@@ -45,4 +45,16 @@ Turning `cleanUrls` on would 308-redirect every canonical URL on the site.
 
 Hashed files under `/assets/` are served immutable for a year; images under `/img/` for a week.
 
+### Search engines are blocked — remove this at launch
+
+While this is a client preview, `vercel.json` sends `X-Robots-Tag: noindex, nofollow` on
+every path, so the `*.vercel.app` URL cannot be indexed and cannot compete with the real
+domain. **Delete that first `headers` entry when the site goes live on
+`whiteoakstewardship.com`, or the production site will stay invisible to search.**
+
+`public/robots.txt` still allows all crawlers, and must keep allowing them: a `Disallow`
+would stop crawlers from ever fetching the page, which means they would never see the
+`noindex` header — a URL blocked in robots.txt can still get indexed from inbound links.
+Allowing the crawl is what makes the `noindex` effective.
+
 `HANDOFF.md` has the longer build notes and design rationale.

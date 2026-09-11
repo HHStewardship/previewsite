@@ -18,7 +18,8 @@ website is this `web/` directory.
 - **3D is fully procedural** — no `.glb`, no textures, no HDRI.
 - **GSAP was dropped.** Scroll-driven light phase is a passive scroll listener + rAF lerp.
 - Content is real, from `client-discovery-questionnaire-submission-e5NMj1x.pdf` (33 pages):
-  tier names, $249/$399/$749, $199 founding rate for first 10, service groups, service-area towns.
+  tier names, service groups, service-area towns. Pricing was later revised to $299/$499/$849
+  with a $249 founding rate for the first 10 Home Watch members.
 
 ---
 

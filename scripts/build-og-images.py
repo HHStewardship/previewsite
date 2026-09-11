@@ -173,6 +173,6 @@ card(
     "og-memberships.jpg",
     ["Three levels", "of care."],
     "See exactly what your membership reaches",
-    "$249  ·  $399  ·  $749 a month  ·  Founding rate $199",
+    "$299  ·  $499  ·  $849 a month  ·  Founding rate $249",
     "Memberships & pricing",
 )

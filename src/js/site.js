@@ -172,10 +172,10 @@ function initConsultForm() {
 
     setStatus(
       'ok',
-      'Thank you. Your email app is opening with the request ready to send. Prefer to talk? Call 678-480-6551.'
+      'Thank you. Your email app is opening with the request ready to send. Prefer to talk? Call 470-859-3583.'
     );
 
-    window.location.href = `mailto:they.call.me.jacks@outlook.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:consultations@WhiteOakStewardship.com?subject=${subject}&body=${body}`;
   });
 }
 

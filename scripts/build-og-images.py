@@ -164,7 +164,7 @@ card(
     "og-home.jpg",
     ["Someone is there", "when you are not."],
     "Private home watch and concierge stewardship",
-    "North Georgia mountains  ·  678-480-6551",
+    "North Georgia mountains  ·  470-859-3583",
     "Second-home stewardship",
 )
 
@@ -173,6 +173,6 @@ card(
     "og-memberships.jpg",
     ["Three levels", "of care."],
     "See exactly what your membership reaches",
-    "$299  ·  $499  ·  $849 a month  ·  Founding rate $249",
-    "Memberships & pricing",
+    "Founding rate $249/month  ·  First 10 members",
+    "Memberships",
 )

@@ -18,8 +18,8 @@ website is this `web/` directory.
 - **3D is fully procedural** — no `.glb`, no textures, no HDRI.
 - **GSAP was dropped.** Scroll-driven light phase is a passive scroll listener + rAF lerp.
 - Content is real, from `client-discovery-questionnaire-submission-e5NMj1x.pdf` (33 pages):
-  tier names, service groups, service-area towns. Pricing was later revised to $299/$499/$849
-  with a $249 founding rate for the first 10 Home Watch members.
+  tier names, service groups, service-area towns. Tier prices are deliberately NOT listed on the site (decision 2026-10-21; rates are quoted at consultation).
+  The only advertised price is the $249/month founding rate for the first 10 Home Watch members, held for the life of the membership. `og-home.jpg` and `og-memberships.jpg` still show old text until `npm run og` is re-run.
 
 ---
 
@@ -117,7 +117,7 @@ critical path. **Leave the warning in place**; silencing it removes the tripwire
 
 ## Not done — pick up here
 
-1. **Email address.** The site uses `they.call.me.jacks@outlook.com` throughout because no domain
+1. **Email address.** The site uses the WhiteOakStewardship.com addresses (consultations@ on the form and contact page, katie@ in footer and privacy, contact@ in schema and address blocks; admin@ is never public)
    is owned yet (SOW Phase 0). Must be swapped for `katie@<domain>` before launch — grep for it.
    It appears in `partials/footer.html`, `partials/schema-localbusiness.html`, `src/js/site.js`,
    `contact.html`, `legal/privacy.html`, `legal/terms.html`.

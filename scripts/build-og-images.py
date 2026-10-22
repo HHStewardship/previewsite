@@ -5,7 +5,7 @@ Run after either source image changes:
     npm run og
 
 The cards are derived from the page artwork rather than drawn separately so a
-link preview looks like the page it opens. Type falls back to Georgia and Segoe UI —
+link preview looks like the page it opens. Type falls back to Georgia and Segoe UI  
 the exact fallbacks declared for Cormorant Garamond and Jost in tokens.css, so
 the substitution is the one the site itself would make.
 """
@@ -63,7 +63,7 @@ def tracked(draw, xy, text, font, fill, tracking):
 # The oak leaf, copied verbatim from partials/brand-mark.html so the share card
 # and the site can never drift apart. Subpath 0 fills; the midrib and the four
 # veins that follow are knockouts, which is why the mark is pasted through a
-# mask — the photograph shows through the veins exactly as it does in the SVG.
+# mask   the photograph shows through the veins exactly as it does in the SVG.
 BLADE = """M 20 3.6 C 23.4 5.6 25.5 7.2 25.5 9.6 C 25.5 11.5 24.2 12.2 22.5 12.5
 C 25.6 12.1 29.4 13.2 30.5 15.8 C 31.5 18.2 29.2 19.6 22.2 20.2
 C 25.4 19.9 28.6 21 29.3 23.4 C 30 25.7 27.4 26.5 21.7 26.9
